@@ -198,3 +198,13 @@ nav {
   justify-content: center;
   align-items: center;
 }
+.foot {
+  height: 500px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.foot h1 {
+  font-size: medium;
+}
