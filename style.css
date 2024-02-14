@@ -125,6 +125,7 @@ nav {
   margin: 1rem;
   position: relative;
   width: 280px;
+  color: white;
 }
 
 .mc {
@@ -156,4 +157,6 @@ nav {
   to {
     transform: translateX(-50%);
   }
+}
+.box {
 }
