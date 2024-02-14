@@ -9,3 +9,47 @@ nav {
   font-size: 10px;
   font-weight: 3;
 }
+.signup {
+  background-color: black;
+  border-radius: 30px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+}
+.search input {
+  border: none;
+}
+.search img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
