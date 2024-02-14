@@ -112,7 +112,17 @@ nav {
   color: white;
   margin-top: 20px;
 }
-
+.get-w {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  height: 50px;
+  width: 120px;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+}
 /* CSS for the marquee */
 .card {
   background-image: url("https://images.unsplash.com/photo-1603775020644-eb8decd79994?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXQlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHx8MA%3D%3D");
@@ -159,4 +169,19 @@ nav {
   }
 }
 .box {
+}
+.sec h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.sub-sec {
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: rgb(245, 232, 121);
 }
