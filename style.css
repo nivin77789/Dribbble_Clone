@@ -36,6 +36,9 @@ nav {
   align-items: center;
   flex: 1;
 }
+.left:hover {
+  cursor: pointer;
+}
 .right {
   flex: 1;
   display: flex;
@@ -108,9 +111,10 @@ nav {
   background-color: black;
   border-radius: 30px;
   height: 50px;
-  width: 120px;
+  width: 150px;
   color: white;
   margin-top: 20px;
+  margin: 10px;
 }
 .get-w {
   display: flex;
@@ -119,9 +123,10 @@ nav {
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
   height: 50px;
-  width: 120px;
+  width: 150px;
   color: rgb(0, 0, 0);
   margin-top: 20px;
+  margin: 10px;
 }
 /* CSS for the marquee */
 .card {
@@ -136,6 +141,36 @@ nav {
   position: relative;
   width: 280px;
   color: white;
+}
+.card-1 {
+  background-image: url("https://i.gifer.com/2kZd.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-2 {
+  background-image: url("https://i.pinimg.com/736x/f8/05/57/f8055726ab19474a098852068d43c890.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-3 {
+  background-image: url("https://img.freepik.com/free-photo/beauty-portrait-female-face_93675-132045.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-4 {
+  background-image: url("https://c0.wallpaperflare.com/preview/192/66/526/front-view-of-man-s-face.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-5 {
+  background-image: url("https://i.pinimg.com/originals/04/b4/ec/04b4ecc14d197301cbd39d48db3d93f3.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .mc {
@@ -178,25 +213,34 @@ nav {
   text-align: center;
 }
 .sub-sec {
-  text-align: center;
   display: grid;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 700px;
   background-color: #ffd979;
   grid-template-columns: auto;
 }
 .sub-sec h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: worry-free!;
-  width: 450px;
+  width: 650px;
   font-weight: 100;
   text-align: center;
+  margin-bottom: 0;
+}
+.sub-sec p {
+  margin-top: 0;
+  font-size: 26px;
+  width: 650px;
+  text-align: center;
+  margin-bottom: 0;
 }
 .but {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  height: 60px;
+  margin-bottom: 0;
 }
 .foot {
   height: 500px;
@@ -207,4 +251,48 @@ nav {
 }
 .foot h1 {
   font-size: medium;
+}
+select {
+  background-color: #f8f7f4;
+  border: none;
+  font-size: medium;
+  font-weight: 400;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.card-content {
+  position: relative;
+  padding: auto;
+}
+.sub-but {
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub-but p {
+  border: 1px solid rgba(255, 255, 255, 0.324);
+  border-radius: 10px;
+  padding: 2px;
 }
