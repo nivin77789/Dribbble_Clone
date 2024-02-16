@@ -226,6 +226,7 @@ nav {
   font-weight: 100;
   text-align: center;
   margin-bottom: 0;
+  padding-top: 16px;
 }
 .sub-sec p {
   margin-top: 0;
@@ -242,15 +243,57 @@ nav {
   height: 60px;
   margin-bottom: 0;
 }
-.foot {
-  height: 500px;
+footer {
+  height: 250px;
   background-color: white;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  padding-top: 50px;
+}
+.foot-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin-top: 50px;
+}
+.fot-left {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 330px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fot-right {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 430px;
+  font-weight: 200;
+}
+.foot-ico {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 150px;
 }
 .foot h1 {
-  font-size: medium;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+.foot h1:hover {
+  cursor: pointer;
+}
+.foot-down p:hover {
+  cursor: pointer;
 }
 select {
   background-color: #f8f7f4;
@@ -284,6 +327,9 @@ a:active {
 .card-content {
   position: relative;
   padding: auto;
+  margin-top: 200px;
+
+  padding: 0%;
 }
 .sub-but {
   display: flex;
@@ -295,4 +341,14 @@ a:active {
   border: 1px solid rgba(255, 255, 255, 0.324);
   border-radius: 10px;
   padding: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell;
+}
+.card-content h1,
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell;
+}
+.sec {
+  height: 700px;
 }
